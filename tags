@@ -1,0 +1,54 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/Users/alanjui/workspace/django/test-2021_07_30/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/78621a0a/
+ALLOWED_HOSTS	myapp/settings.py	/^ALLOWED_HOSTS = []$/;"	v
+AUTH_PASSWORD_VALIDATORS	myapp/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+BASE_DIR	myapp/settings.py	/^BASE_DIR = Path(__file__).resolve().parent.parent$/;"	v
+BlogArticles	blog/models.py	/^class BlogArticles(models.Model):$/;"	c
+BlogArticlesAdmin	blog/admin.py	/^class BlogArticlesAdmin(admin.ModelAdmin):$/;"	c
+BlogConfig	blog/apps.py	/^class BlogConfig(AppConfig):$/;"	c
+DATABASES	myapp/settings.py	/^DATABASES = {$/;"	v
+DEBUG	myapp/settings.py	/^DEBUG = True$/;"	v
+INSTALLED_APPS	myapp/settings.py	/^INSTALLED_APPS = [$/;"	v
+LANGUAGE_CODE	myapp/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+MIDDLEWARE	myapp/settings.py	/^MIDDLEWARE = [$/;"	v
+Meta	blog/models.py	/^    class Meta:$/;"	c	class:BlogArticles
+Migration	blog/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+ROOT_URLCONF	myapp/settings.py	/^ROOT_URLCONF = 'myapp.urls'$/;"	v
+SECRET_KEY	myapp/settings.py	/^SECRET_KEY = '0qy2^5zgug+y*j$zg)(xfvseszs#beq*pr-$2x9%@5js1kjw%7'$/;"	v
+STATIC_URL	myapp/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+TEMPLATES	myapp/settings.py	/^TEMPLATES = [$/;"	v
+TIME_ZONE	myapp/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+USE_I18N	myapp/settings.py	/^USE_I18N = True$/;"	v
+USE_L10N	myapp/settings.py	/^USE_L10N = True$/;"	v
+USE_TZ	myapp/settings.py	/^USE_TZ = True$/;"	v
+WSGI_APPLICATION	myapp/settings.py	/^WSGI_APPLICATION = 'myapp.wsgi.application'$/;"	v
+__str__	blog/models.py	/^    def __str__(self):$/;"	m	class:BlogArticles
+application	myapp/asgi.py	/^application = get_asgi_application()$/;"	v
+application	myapp/wsgi.py	/^application = get_wsgi_application()$/;"	v
+author	blog/models.py	/^    author = models.ForeignKey(User, on_delete=models.CASCADE,$/;"	v	class:BlogArticles
+body	blog/models.py	/^    body = models.TextField()$/;"	v	class:BlogArticles
+date_hierarchy	blog/admin.py	/^    date_hierarchy = "publish"$/;"	v	class:BlogArticlesAdmin
+dependencies	blog/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+django_2021-001	README.md	/^# django_2021-001$/;"	c
+initial	blog/migrations/0001_initial.py	/^    initial = True$/;"	v	class:Migration
+list_display	blog/admin.py	/^    list_display = ("title", "author", "publish")$/;"	v	class:BlogArticlesAdmin
+list_filter	blog/admin.py	/^    list_filter = ("publish", "author")$/;"	v	class:BlogArticlesAdmin
+main	manage.py	/^def main():$/;"	f
+name	blog/apps.py	/^    name = 'blog'$/;"	v	class:BlogConfig
+operations	blog/migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+ordering	blog/admin.py	/^    ordering = ['-publish', 'author']$/;"	v	class:BlogArticlesAdmin
+ordering	blog/models.py	/^        ordering = ("-publish",)$/;"	v	class:BlogArticles.Meta
+publish	blog/models.py	/^    publish = models.DateTimeField(default=timezone.now)$/;"	v	class:BlogArticles
+raw_id_fields	blog/admin.py	/^    raw_id_fields = ("author", )$/;"	v	class:BlogArticlesAdmin
+search_fields	blog/admin.py	/^    search_fields = ("title", "body")$/;"	v	class:BlogArticlesAdmin
+title	blog/models.py	/^    title = models.CharField(max_length=300)$/;"	v	class:BlogArticles
+urlpatterns	myapp/urls.py	/^urlpatterns = [$/;"	v

@@ -1,0 +1,23 @@
+@startuml
+
+' hide the spot
+hide circle
+
+entity "User" as e01 {
+    *e1_id: number <<generated>>
+    --
+    *username: text
+    *password: password
+}
+
+entity "BlogArticles" as e02 {
+    *e2_id: number <<generated>>
+    --
+    * title: string
+    * author: User
+    * body: text
+    * publish: datetime
+}
+
+e01 ||..o{ e02
+@enduml
