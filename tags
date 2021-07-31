@@ -35,6 +35,8 @@ __str__	blog/models.py	/^    def __str__(self):$/;"	m	class:BlogArticles
 application	myapp/asgi.py	/^application = get_asgi_application()$/;"	v
 application	myapp/wsgi.py	/^application = get_wsgi_application()$/;"	v
 author	blog/models.py	/^    author = models.ForeignKey(User, on_delete=models.CASCADE,$/;"	v	class:BlogArticles
+blog_article	blog/views.py	/^def blog_article(request, article_id):$/;"	f
+blog_title	blog/views.py	/^def blog_title(request):$/;"	f
 body	blog/models.py	/^    body = models.TextField()$/;"	v	class:BlogArticles
 date_hierarchy	blog/admin.py	/^    date_hierarchy = "publish"$/;"	v	class:BlogArticlesAdmin
 dependencies	blog/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
@@ -51,4 +53,9 @@ publish	blog/models.py	/^    publish = models.DateTimeField(default=timezone.now
 raw_id_fields	blog/admin.py	/^    raw_id_fields = ("author", )$/;"	v	class:BlogArticlesAdmin
 search_fields	blog/admin.py	/^    search_fields = ("title", "body")$/;"	v	class:BlogArticlesAdmin
 title	blog/models.py	/^    title = models.CharField(max_length=300)$/;"	v	class:BlogArticles
+urlpatterns	blog/urls.py	/^urlpatterns = [$/;"	v
 urlpatterns	myapp/urls.py	/^urlpatterns = [$/;"	v
+{{ article.title }}	blog/templates/blog/content.html	/^  <h1>{{ article.title }}<\/h1>$/;"	h
+廣告	blog/templates/blog/content.html	/^    <h2>廣告<\/h2>$/;"	i
+廣告	blog/templates/blog/titles.html	/^    <h2>廣告<\/h2>$/;"	i
+我的部落格	blog/templates/blog/titles.html	/^  <h1>我的部落格<\/h1>$/;"	h
