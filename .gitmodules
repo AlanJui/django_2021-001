@@ -1,0 +1,6 @@
+[submodule "DjangoPracticeProject"]
+	path = DjangoPracticeProject
+	url = https://github.com/qiwsir/DjangoPracticeProject
+[submodule "submodules/DjangoPracticeProject"]
+	path = submodules/DjangoPracticeProject
+	url = https://github.com/qiwsir/DjangoPracticeProject
