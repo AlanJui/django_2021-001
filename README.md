@@ -12,6 +12,11 @@
  ```
 
  ```
- yarn add global bootstrap
+ yarn global add bootstrap
  la ~/.config/yarn/global/node_modules/bootstrap/
  ```
+
+
+## 參考
+
+ - 程式碼來源：[《跟著老齊學 Python: Django 實戰》](https://github.com/qiwsir/DjangoPracticeProject)
