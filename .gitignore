@@ -111,4 +111,7 @@ static_collected
 
 # Node.js
 node_modules/
+
+# Vim Tags
 tags
+tags.*
