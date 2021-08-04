@@ -9,12 +9,12 @@
     </div>
     <div>
       <ul class="nav navbar-nav" role="navigation">
-        <li><a href="{% url 'blog:blog_title' %}" >BLOG</a></li>
+        <li><a href="{% url 'blog' %}" >BLOG</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right" style="margin-right:10px">
         {% if user.is_authenticated %}
           <li><a href="#">{{ user.username }}</a></li>
-          <li><a href="{% url 'account:user_logout' %}">Logout</a></li>
+          <li><a href="{% url 'account:logout' %}">Logout</a></li>
         {% else %}
           <li><a href="{% url 'account:user_login' %}" >Login</a></li>
         {% endif %}
