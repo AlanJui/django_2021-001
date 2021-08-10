@@ -20,6 +20,14 @@
 
 ## 功能
 
+### Django 用戶認證
+
+[Django/用戶認證](https://zh.wikibooks.org/zh-tw/Django/%E7%94%A8%E6%88%B7%E8%AE%A4%E8%AF%81)
+
+[How to change a user’s password in Django](https://canbaysal.com/2018/10/how-to-change-a-users-password-in-django/)
+
+
+
 ### 使用者管理
 
  - 登入： /account/login/
@@ -33,3 +41,11 @@
 ## 參考
 
  - 程式碼來源：[《跟著老齊學 Python: Django 實戰》](https://github.com/qiwsir/DjangoPracticeProject)
+
+ - [Django 文档内容](https://docs.djangoproject.com/zh-hans/3.2/contents/)
+
+ - [Django中的用户认证¶](https://docs.djangoproject.com/zh-hans/3.2/topics/auth/)
+
+ - [使用 Django 的验证系统](https://docs.djangoproject.com/zh-hans/3.2/topics/auth/default/)
+
+ - [Part 3: Django Reset Password and Change Password](https://techpluslifestyle.com/technology/django-reset-password/)

@@ -11,19 +11,17 @@ urlpatterns = [
          name='user_login'),
     path('logout/',
          auth_views.LogoutView.as_view(template_name='account/logout.html'),
-         name='logout'),
+         name='user_logout'),
     path('register/', views.register, name='user_register'),
     # change password
-    # path('password_change/',
-    #      auth_views.PasswordChangeView.as_view(
-    #          template_name='registration/password_change_form.html',
-    #      ),
-    #      name='password_change'),
-    path('password_change/',
-         auth_views.PasswordChangeView.as_view(),
-         name='password_change'),
-    path('password_change/done/',
+    path('change-password/',
+         auth_views.PasswordChangeView.as_view(
+             template_name='account/change-password.html',
+             success_url='/account/password-change-done/',
+         ),
+         name='change_password'),
+    path('password-change-done/',
          auth_views.PasswordChangeDoneView.as_view(
-             template_name='registration/password_change_done.html',),
+             template_name='account/password_change_done.html',),
          name='password_change_done'),
 ]
